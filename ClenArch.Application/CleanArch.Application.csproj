@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Common\" />
     <Folder Include="Extensions\" />
     <Folder Include="Services\Infrastructure\" />
   </ItemGroup>
@@ -18,7 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CleanArch.Domain\CleanArch.Domain.csproj" />
-    <ProjectReference Include="..\CleanArch8\CleanArch.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

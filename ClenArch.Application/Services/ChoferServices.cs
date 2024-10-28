@@ -37,9 +37,9 @@ namespace CleanArch.Application.Services
 
 			if (!validationResult.IsValid)
 			{
-				throw new FluentValidation.ValidationException(validationResult.Errors);
+				//throw new ValidationException(validationResult.Errors);
+                throw new Exception("99999999");
 			}
-
 			Chofer result = await choferRepository.AddAsync(mapper.Map<Chofer>(choferDto));
 				return result.Id;
         }
