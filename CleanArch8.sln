@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6E4FE8B3-87BF-43EE-A161-5CB26C6BE119}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{97DF5099-6807-48C0-AA05-A6718AEB2BED}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts-SQL.txt = Scripts-SQL.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{E7689C14-0957-4F5A-AA52-029A4908E023}"
 EndProject
