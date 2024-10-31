@@ -20,6 +20,8 @@ namespace CleanArch.WebApi.Middlewares
 				Exception exception,
 				CancellationToken cancellationToken)
 			{
+				Console.WriteLine("AQUI");
+				Console.WriteLine("exception", exception.Message);
 				// Verifica si es una excepción de validación
 				if (exception is ValidationException validationException)
 				{
